@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * print_rev - minic the stdio version of puts
  * @s: the value to process to the stdout in reverse.
@@ -18,4 +18,3 @@ void print_rev(char *s)
 	}
 	putchar('\n');
 }
-
