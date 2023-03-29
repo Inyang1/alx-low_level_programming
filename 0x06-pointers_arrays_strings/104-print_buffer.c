@@ -1,9 +1,12 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * print_buffer - add 2 strings.
- * @b: string1.
- * @size: string2.
- * Return: String with all letters in ROT13 base.
+ * print_buffer - prints string buffer
+ * @b: the buffer
+ * @size: size of buffer to print
+ *
+ * Return: void
  */
 void print_buffer(char *b, int size)
 {
